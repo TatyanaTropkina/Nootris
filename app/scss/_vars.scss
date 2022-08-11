@@ -1,0 +1,36 @@
+$bg: #111;
+$black: #000;
+$grey: #ADADAD;
+$light-accent: #FCDA28;
+$dark-accent: #FCB500;
+$transition: all .2s linear;
+
+%rub-regular {
+	font-family: "Rubik-Regular", serif;
+	font-weight: 400;
+}
+
+%rub-bold {
+	font-family: "Rubik-Bold", serif;
+	font-weight: 700;
+}
+
+%content {
+	content: '';
+	position: absolute;
+}
+
+[class^="__"],
+[class*=" __"] {
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+}
+
+.__cart:before {
+	content: "\e900";
+}
